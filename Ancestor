@@ -3705,10 +3705,10 @@ function Ancestor:ModeratePlayer(Option)
     if Option=='HardKill'then
         Character.HumanoidRootPart.CFrame=cframe.new(-1675,800,1295);
         Character.HumanoidRootPart.Anchored=true;
-        task.wait()
+        task.wait(5)
     end;
-    repeat task.wait()Ancestor.PlayerToModerate.Character.HumanoidRootPart.CFrame=Axe.Handle.CFrame;until Axe.Parent~=Player:Kick(Fuck You)
-    game:GetService('ReplicatedStorage').interaction.DestroyStructure:FireServer(Axe);
+    repeat task.wait()Ancestor.PlayerToModerate.Character.HumanoidRootPart.CFrame=Axe.Handle.CFrame;until Axe.Parent~=Player'Kick(Fuck You);
+    game:GetService('ReplicatedStorage').Interaction.DestroyStructure:FireServer(Axe);
     repeat Stepped:wait()until not Character:FindFirstChild'Tool'
     Character:Destroy();
 end;
